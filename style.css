@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  margin: 0;
+}
+html {
+  overflow-x: hidden;
+}
+.container {
+  width: 70%;
+  height: auto;
+  position: relative;
+  margin: 25px auto;
+}
+.TextJudul,
+.TextJudulForm {
+  text-align: center;
+  font-family: monospace;
+  padding: 5%;
+}
+.kotak1 {
+  font-size: 1.1em;
+  font-family: monospace;
+  position: relative;
+}
+.kotak2 {
+  margin-top: 15px;
+  width: 100%;
+  height: auto;
+  border: 3px solid black;
+  border-radius: 5px;
+  position: relative;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+.ipjudul,
+.ipkelompok,
+.ipisikelompok {
+  width: 190px;
+  padding: 5px;
+}
+.inputJudul,
+.inputKelompok,
+.inputisiKelompok {
+  padding-top: 10px;
+}
+.daftarHadir {
+  display: none;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+}
+.button {
+  padding-top: 10px;
+}
+.button button {
+  width: 40px;
+  padding: 0.5%;
+}
+.kelompok {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.kel {
+  width: 250px;
+  height: auto;
+  padding: 10px;
+  border: 2px solid black;
+  margin-bottom: 3%;
+  text-align: center;
+}
+.dafKel ul li {
+  padding-bottom: 10px;
+}
+.dafKel ul {
+  margin-bottom: 10px;
+}
+.judul {
+  text-transform: uppercase;
+}
+.x {
+  list-style: none;
+  text-align: left;
+}
+.kel label {
+  font-size: 1.5em;
+  font-family: monospace;
+  font-weight: bold;
+}
+.x p {
+  font-size: 1.1em;
+  font-family: monospace;
+}
