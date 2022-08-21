@@ -94,3 +94,11 @@ html {
   font-size: 1.1em;
   font-family: monospace;
 }
+@media screen and (max-width: 400px) {
+  .TextJudul {
+    font-size: 0.6em;
+  }
+  .TextJudulForm {
+    font-size: 0.7em;
+  }
+}
