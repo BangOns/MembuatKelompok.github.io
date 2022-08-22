@@ -16,7 +16,7 @@ html {
 .TextJudul,
 .TextJudulForm {
   text-align: center;
-  font-family: monospace;
+  font-family: "roboto";
   padding: 5%;
 }
 .kotak1 {
@@ -87,12 +87,17 @@ html {
 }
 .kel label {
   font-size: 1.5em;
-  font-family: monospace;
+  font-family: "roboto";
   font-weight: bold;
 }
 .x p {
   font-size: 1.1em;
-  font-family: monospace;
+  font-family: "roboto";
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url("Roboto-Regular.ttf") format("truetype");
 }
 @media screen and (max-width: 400px) {
   .TextJudul {
